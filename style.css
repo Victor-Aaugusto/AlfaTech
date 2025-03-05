@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header img{
+    width: 70px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+}
+
+header h1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+header p{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #2f86d6;
+}
+
+
+header{
+    width: 100%;
+    height: 130px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    gap: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color: #233032;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #2f86d6;
+    color: #fff;
+    height: 80vh;
+    width: 100%;
+}
+
+.banner  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .text-banner{
+    width: 35%;
+    text-align: justify;
+}
+
+.banner .text-banner h2{
+    font-size: 32px;
+}
+
+.banner img{
+    width: 30%;
+    align-items: right;
+}
+
+.anuncio{
+    background-color: #233032;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 15px;
+}
+
+.anuncio div{
+    text-align: justify;
+
+}
+
+.anuncio a{
+    margin: 30px;
+    background-color: #2f86d6;
+    padding: 15px ;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+}
+
+.anuncio p{
+    line-height: 27px;
+}
+
+.anuncio > a img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.informacoes{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    margin: 30px auto;
+    width: 70%;
+}
+.informacoes img{
+    width: 150px;
+}
+
+.informacoes div{
+    width: 70%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.informacoes .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+span{
+    color: #2f86d6;
+}
+
+.tabela {
+    background-color: #f6f6f6;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabela h2 {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.tabela p{
+    font-size: 12px;
+    color: #a89f9f;
+    width: 150px;
+    text-align: center;
+}
+
+.tabela img{
+    width: 60px;
+}
+table{
+    height: 400px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px #2f86d6,-10px -10px 20px 10px #2f86d6; /* Sombra para cima e esquerda */
+
+    
+  
+}
+
+table th, tr, td{
+    font-weight: normal;
+}
+
+thead th {
+    border: 1px solid#d4d0d0;
+    margin: 0;
+    padding: 0;
+}
+
+tbody td{
+    border: 1px solid #d4d0d0;
+    margin: 0;
+    padding: 0;
+}
+
+table h2{
+    margin-top: 30px ;
+}
+
+
+.destaque td{
+    background-color: #e7e1e1;
+}
+
+.dois {
+    background-color: #2f86d6;
+}
+
+.dois a{
+    background-color: #233032;
+}
+
+.footer{
+    background-color: #fff;
+    color: #233032;
+    margin:  30px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 50vh;
+}
+
+.footer .box-card{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.footer .box-card h2{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.footer .box-card span{
+    position: relative;
+    top: 0%;
+    left: 4%;
+}
+
+
+.footer img{
+    width: 70px;
+    display: inline;
+}
+
+.text-contato{
+    padding: 50px;
+    position: relative;
+    top:40%;
+    text-align: center;
+}
+
+.desenvolvido-por{
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
